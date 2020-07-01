@@ -1,0 +1,19 @@
+{
+  "name": "learning-graphql",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:emamut/learning-graphql.git",
+  "author": "Faber Andrés Vergara Holguín <fabervergara@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
